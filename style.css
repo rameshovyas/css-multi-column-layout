@@ -34,6 +34,10 @@ header{
 article.featured {
     /* Take all three columns in width */
     grid-column: span 3; /* assign specific column to item , no need to specify the starting point as it is the first */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:60px;
+    
 }
 
 article img, article.featured img{
