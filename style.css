@@ -31,9 +31,15 @@ header{
     margin:20px auto;
 }
 
+article.featured {
+    /* Take all three columns in width */
+    grid-column: span 3; /* assign specific column to item , no need to specify the starting point as it is the first */
+}
+
 article img, article.featured img{
     width: 100%; /* Take full width of the column they have been assigned to, only and not its own width */
     border: 4px solid #fff;
     border-radius: 8px;
 
 }
+
