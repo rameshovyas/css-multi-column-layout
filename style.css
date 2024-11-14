@@ -37,7 +37,9 @@ article.featured {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:60px;
-    
+    align-items: center;
+    border-bottom: 1px solid #bbc7c7;
+    padding-bottom: 40px;
 }
 
 article img, article.featured img{
