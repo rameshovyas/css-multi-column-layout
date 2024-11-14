@@ -17,3 +17,8 @@ p {
     color:#8a9190;
 }
 
+header{
+    max-width: 1200px;
+    margin: 40px auto;
+    border-bottom: 1px solid #bbc7c7;
+}
