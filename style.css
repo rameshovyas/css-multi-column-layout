@@ -30,3 +30,10 @@ header{
     max-width: 1200px;
     margin:20px auto;
 }
+
+article img, article.featured img{
+    width: 100%; /* Take full width of the column they have been assigned to, only and not its own width */
+    border: 4px solid #fff;
+    border-radius: 8px;
+
+}
